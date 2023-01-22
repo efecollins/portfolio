@@ -1,12 +1,10 @@
+import NavBar from './components/NavBar';
+
 function App() {
   return (
     <div className="App bg-[#0d1117] min-h-screen text-[#aab1b9]">
       <header className="App-header">
-      <nav>
-        <ul>
-          <li>Efosa</li>
-        </ul>
-      </nav>
+        <NavBar />
       </header>
     </div>
   );
