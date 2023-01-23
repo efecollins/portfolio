@@ -12,12 +12,14 @@ const TechTermsSearchBox = () => {
       textAlign: "center",
       border: "2px solid #00695C",
       borderRadius: 5,
-      overflow: "hidden"
+      overflow: "hidden",
+      marginRight: 25
     }}
   >
     <a
       href="https://techterms.com/"
       target="_blank"
+      rel="noreferrer"
       style={{ display: "block" }}
     >
     </a>
@@ -35,6 +37,7 @@ const TechTermsSearchBox = () => {
         name="term"
         id="term"
         placeholder="Search for a Tech Term"
+        className="focus:width-100"
         style={{
           width: "calc(100% - 65px)",
           height: 30,
